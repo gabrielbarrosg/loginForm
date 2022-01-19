@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&family=Poppins&display=swap');
+body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #68C895;
+}
+.container {
+    width: 900px;
+    height: 500px;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:rgb(255, 255, 255);
+    border-radius: 40px;
+    box-shadow: 0px 0px 20px rgb(117, 117, 117);
+}
+.img {
+    width: 350px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+}
+.inputs {
+    width: 280px;
+    margin: 0 auto;
+    margin-bottom: 12px;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    border-bottom: 1px solid #68C895;
+    font-family: 'Oxygen', sans-serif;
+}
+.button {
+    height: 35px;
+    margin-bottom: 12px;
+    border-radius: 15px;
+    border: none;
+    background-color: #68C895;
+    color: honeydew;
+    font-weight: bold;
+    font-family: 'Oxygen', sans-serif;
+}
+.text {
+    display: flex;
+    justify-content: center;
+    color: #303030;
+    font-family: 'Poppins', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: #727272;
+    font-size: 12px;
+}
+.social-media-fb,  .social-media-ggl{
+    width: 300px;
+    height: 35px;
+    margin: 0 auto;
+    margin-bottom: 12px;
+    border-radius: 15px;
+    border: none;
+    color: honeydew;
+    font-weight: bold;
+    font-family: 'Oxygen', sans-serif;
+}
+.social-media-ggl {
+    background-color: #c86868;
+}
+.social-media-fb {
+    background-color: #6892c8;
+}
